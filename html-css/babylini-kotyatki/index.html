@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Бабуленькины котятки</h1>
+    </header>
+    <section>
+        <div class="main-wrapper">
+            <input type="radio" name="cat-breeds" id="nav-abyssinian">
+            <input type="radio" name="cat-breeds" id="nav-british">
+            <input type="radio" name="cat-breeds" id="nav-russian-blue">
+            <input type="radio" name="cat-breeds" id="nav-siamese">
+            <input type="radio" name="cat-breeds" id="nav-none">
+            <div class="breeds">
+                <div class="label-abyssinian"><label for="nav-abyssinian">Абиссинская</label></div>
+                <div class="label-british"><label for="nav-british">Британская</label></div>
+                <div class="label-russian-blue"><label for="nav-russian-blue">Русская голубая</label></div>
+                <div class="label-siamese"><label for="nav-siamese">Сиамская</label></div>
+                <div class="label-none"><label for="nav-none">Отменить выбор</label></div>
+            </div>
+            <div class="cats-wrapper">
+                <div class="cat-card abyssinian one" id="cat-1">
+                    <p class="description">
+                        Барсик, 4 года
+                    </p>
+                </div>
+                <div class="cat-card russian-blue two" id="cat-2">
+                    <p class="description">
+                        Тимоша, 2 года
+                    </p>
+                </div>
+                <div class="cat-card british three" id="cat-3">
+                    <p class="description">
+                        Гоша, 4 года
+                    </p>
+                </div>
+                <div class="cat-card russian-blue four" id="cat-4">
+                    <p class="description">
+                        Борис, 1 год
+                    </p>
+                </div>
+                <div class="cat-card siamese five" id="cat-5">
+                    <p class="description">
+                        Гена, 4 года
+                    </p>
+                </div>
+                <div class="cat-card russian-blue six" id="cat-6">
+                    <p class="description">
+                        Пуфик, 3 года
+                    </p>
+                </div>
+                <div class="cat-card british seven" id="cat-7">
+                    <p class="description">
+                        Фу
+                        нтик, 5 лет
+                    </p>
+                </div>
+                <div class="cat-card british eight" id="cat-8">
+                    <p class="description">
+                        Болт, 1.5 года
+                    </p>
+                </div>
+            </div>
+            <div class="rating-wrapper">
+                <p>Рейтинг</p>
+                <label for="check-box-rating">по убыванию </label>
+                <input type="checkbox" name="ch-rating" id="check-box-rating">
+                <div class="card-rating-cat" id="abyssinian">
+                    <p class="cat-name">Абиссинская</p>
+                    <div class="cat-rating">
+                        <div class="rating-gradient abyssinian">
+                        </div>
+                        <div class="rating-number">9</div>
+                    </div>
+                </div>
+                <div class="card-rating-cat" id="british">
+                    <p class="cat-name">Британская</p>
+                    <div class="cat-rating">
+                        <div class="rating-gradient british">
+                        </div>
+                        <div class="rating-number">8</div>
+                    </div>
+                </div>
+                <div class="card-rating-cat" id="russian-blue">
+                    <p class="cat-name">Русская голубая</p>
+                    <div class="cat-rating">
+                        <div class="rating-gradient russian-blue">
+                        </div>
+                        <div class="rating-number">10</div>
+                    </div>
+                </div>
+                <div class="card-rating-cat" id="siamese">
+                    <p class="cat-name">Сиамская</p>
+                    <div class="cat-rating">
+                        <div class="rating-gradient siamese">
+                        </div>
+                        <div class="rating-number">4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr>
+        <div class="footer_left">&copy; ООО Бабуленькины котятки, 2021</div>
+        <div class="footer_right">
+            <address>Наш адрес: улица Котовая, д.5</address>
+        </div>
+    </footer>
+</body>
+
+</html>
