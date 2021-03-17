@@ -6,4 +6,4 @@
 The task required to implement the layout of an ebay-like store.
 In this example, cards with a photo, name and description of the breed for a cat are implemented. The rating is also implemented.
 
-![Иллюстрация к проекту](https://github.com/mr-bronzebeard/practice/raw/master/results/image-1.png)
+![Иллюстрация к проекту](https://github.com/mr-bronzebeard/practice/raw/main/html-css/results-img/image-1.png)
